@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "A bot for PrismarineJS",
-  "author": "dada513 <kontakt@dada513.eu>",
+  "author": "dada513",
   "license": "ISC",
   "repository": "https://github.com/dada513/prismarine-bot.git",
   "homepage": "https://github.com/dada513/prismarine-bot",
@@ -14,15 +14,13 @@
     "probot-app"
   ],
   "scripts": {
-    "start": "probot run ./index.js",
-    "test": "jest"
+    "start": "probot run ./index.js"
   },
   "dependencies": {
+    "js-yaml": "^3.14.1",
     "probot": "^10.9.3"
   },
   "devDependencies": {
-    "jest": "^26.4.0",
-    "nock": "^13.0.4",
     "smee-client": "^1.1.0"
   },
   "engines": {
