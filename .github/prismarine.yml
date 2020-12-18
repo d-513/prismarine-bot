@@ -3,7 +3,7 @@ version: "1"
 # Issue Welcome
 # comments a certain string when an issue is created
 issuewelcome:
-  enabled: false
+  enabled: true
   message: >
     Thank you for creating this issue!
 # label manager
